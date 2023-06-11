@@ -1,0 +1,184 @@
+.body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+   
+}
+
+.big-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.card-container {
+    margin-top: 170px;
+    width: 340px;
+    height: 535px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    border-radius: 20px;
+    background-image: linear-gradient(hsl(215, 59%, 36%),hsl(216, 50%, 16%));
+    box-shadow: 1px 1px 1px 2px rgb(39, 39, 39), 1px 1px 1px 2px  inset rgb(39, 39, 39);
+    
+}
+
+.cube-box {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+    
+}
+
+
+.cube {
+    background-color: none;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    transition: opacity 0.5s;
+    cursor: pointer;
+    
+
+}
+
+.overlay {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  border-radius: 20px;
+  background-color: hsl(178, 100%, 50%, 0.4);
+
+}
+
+.eye {
+    transition: opacity 0.5s;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer; 
+    
+    
+}
+
+.cube-box:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.cube-box:hover .eye {
+    opacity: 1;
+}
+
+.equilibrium, .promotes, .stats {
+    margin-left: 25px;
+}
+
+.equilibrium {
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    margin-top: 15px;
+    transition: color 0.5s;
+}
+
+.promotes {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: hsl(215, 51%, 70%);
+}
+
+.ETH {
+    display: flex;
+    color: hsl(178, 100%, 50%);
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    max-height: 50px;
+}
+
+.days {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    margin-right: 30px;
+    color: hsl(215, 51%, 70%);
+}
+
+
+#avatar {
+    margin-right: 5px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 22px;
+    margin-right: 15px;
+}
+
+.jules {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-top: 20px;
+    font-size: 14px;
+    height: 30px;
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+#creation {
+    color: hsl(215, 51%, 70%);
+}
+
+#jw {
+    color: white;
+    padding-left: 4px;
+    transition: color 0.5s;
+}
+
+#jw:hover, .equilibrium:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+#clock {
+    width: 17px;
+    height: 17px;
+}
+
+#crystal, #clock {
+    padding-right: 7px;
+}
+
+#clock, #avatar, #crystal {
+    vertical-align: baseline;
+}
+
+.attribution {
+    padding-top: 20px;
+    color: white;
+}
+
