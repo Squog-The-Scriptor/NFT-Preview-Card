@@ -2,7 +2,6 @@
     font-family: 'Outfit', sans-serif;
     background-color: hsl(217, 54%, 11%);
    
-   
 }
 
 
@@ -106,6 +105,7 @@
 .ETH {
     display: flex;
     color: hsl(178, 100%, 50%);
+    font-weight: bold;
 }
 
 .stats {
