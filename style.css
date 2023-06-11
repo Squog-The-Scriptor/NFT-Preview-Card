@@ -2,18 +2,16 @@
     font-family: 'Outfit', sans-serif;
     background-color: hsl(217, 54%, 11%);
    
-}
-
-.big-container {
-    display:flex;
-    align-items: center;
-    justify-content: center;
+   
 }
 
 
 
 .card-container {
-    margin-top: 170px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 340px;
     height: 535px;
     display: flex;
@@ -31,8 +29,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
 
     
 }
@@ -101,9 +97,9 @@
 }
 
 .promotes {
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
     color: hsl(215, 51%, 70%);
 }
 
@@ -118,6 +114,7 @@
     justify-content: space-between;
     flex: 1;
     max-height: 50px;
+    padding-bottom: 15px;
 }
 
 .days {
@@ -143,7 +140,8 @@
     display: flex;
     align-items: center;
     align-content: center;
-    padding-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 35px;
     font-size: 14px;
     height: 30px;
     border-top: 1px solid hsl(215, 32%, 27%);
@@ -165,6 +163,7 @@
 }
 
 #clock {
+    padding-top: 2px;
     width: 17px;
     height: 17px;
 }
@@ -178,7 +177,11 @@
 }
 
 .attribution {
-    padding-top: 20px;
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
+    
 }
 
